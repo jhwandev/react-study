@@ -1,3 +1,13 @@
 [data-component='filter'] {
-  
+}
+
+[data-component='filter.header'] {
+  width: 100%;
+
+  & > .title-area {
+    display: grid;
+    grid-template-columns: auto max-content;
+    align-items: center;
+    background-color: burlywood;
+  }
 }

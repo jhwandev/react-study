@@ -1,3 +1,5 @@
+import { useState } from "react";
+import './style.scss'
 
 interface FilterProps {
   children?: React.ReactNode;
@@ -5,6 +7,22 @@ interface FilterProps {
 
 function Filter({ children }: FilterProps) {
   return <div data-component="filter">{children}</div>;
+}
+
+/**
+ * useToggle Hook
+ * 토글 상태를 관리하는 Hook
+ * @param initialState
+ * @returns 
+ */
+function useToggle(initialState: boolean = false): [boolean, () => void, React.Dispatch<React.SetStateAction<boolean>>] {
+  const [state, setState] = useState(initialState);
+
+  function toggle() {
+    setState(!state);
+  }
+
+  return [state, toggle, setState];
 }
 
 namespace Filter {
@@ -24,46 +42,47 @@ namespace Filter {
       </div>
     );
   }
-}
 
-interface HeaderProps {
-  title: string;
-  open?: boolean;
+  interface HeaderProps {
+    title: string;
+    open?: boolean;
+    children?: React.ReactNode;
+  }
+  export function Header({ title, open = false, children }: HeaderProps) {
+    const [isOpen, toggle] = useToggle(open);
 
-  children?: React.ReactNode;
-}
-export function Header({ title, open = false, children }: HeaderProps) {
-  return (
-    <div data-component="filter.header">
-      <h3>{title}</h3>
-      {open && <div>{children}</div>}
-    </div>
-  );
-}
+    return (
+      <div data-component="filter.header">
+        <div className="title-area" onClick={()=>toggle()}>
+          <h3>{title}</h3>
+        </div>
+        {isOpen && children}
+      </div>
+    );
+  }
 
-interface ItemProps {
-  label: string;
-  suffix?: string;
-  value?: string;
-  onChange?: (value: boolean) => void;
-}
+  interface ItemProps {
+    label: string;
+    suffix?: string;
+    value?: string;
+    onChange?: (value: boolean) => void;
+  }
 
-export function Item({ label, suffix, value, onChange }: ItemProps) {
-
-
-  return (
-    <button
-      data-component="filter.item"
-      onClick={() => {
-        console.log('click');
-        onChange && onChange(true);
-      }}
-    >
-      <p>{label}</p>
-      <div>{suffix}</div>
-      <div>{value}</div>
-    </button>
-  );
+  export function Item({ label, suffix, value, onChange }: ItemProps) {
+    return (
+      <button
+        data-component="filter.item"
+        onClick={() => {
+          console.log('click');
+          onChange && onChange(true);
+        }}
+      >
+        <p>{label}</p>
+        <div>{suffix}</div>
+        <div>{value}</div>
+      </button>
+    );
+  }
 }
 
 export default Filter;
