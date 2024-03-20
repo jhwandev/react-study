@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "name": "REACT-STUDY",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "search.exclude": {
+      "**/.yarn": true,
+      "**/.pnp.*": true
+    },
+    "window.title": "Workspace",
+    "typescript.tsdk": ".yarn/sdks/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true
+  }
+}
