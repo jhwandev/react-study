@@ -6,7 +6,9 @@ import {
   ErrorPage,
   SplatsExPage,
   ComponentExPage,
+  TestPage
 } from "./pages";
+
 
 
 const router = createBrowserRouter(
@@ -20,6 +22,8 @@ const router = createBrowserRouter(
         <Route path="/splats-ex/*" element={<SplatsExPage/>}/>
         {/* Component Example */}
         <Route path="/comp-ex/" element={<ComponentExPage/>}/>
+        {/* test */}
+        <Route path="/test/" element={<TestPage/>}/>
       </Route>
     </>
   )
