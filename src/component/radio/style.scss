@@ -2,11 +2,14 @@
   display: flex;
   grid-template-columns: auto max-content;
   align-items: center;
-  background-color: burlywood; 
+  background-color: burlywood;
 }
 [data-component='radio.item'] {
   margin: 10px;
   span {
     margin-left: 5px;
+  }
+  :checked + span {
+    color: red;
   }
 }
