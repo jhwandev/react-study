@@ -12,35 +12,69 @@ import { createContext, useContext, useEffect, useState } from 'react';
 import './style.scss';
 
 interface RadioContextType {
-  selectedValue: string | undefined;
-  setSelectedValue: React.Dispatch<React.SetStateAction<string | undefined>>;
+  value: string | undefined;
+  setValue: (value: string | undefined) => void;
 }
 
 const RadioContext = createContext<RadioContextType>({
-  selectedValue: '',
-  setSelectedValue: () => {},
+  value: '',
+  setValue: () => {},
 });
 
 interface RadioProps {
-  value?: string | undefined;
-  setValue?: React.Dispatch<React.SetStateAction<string | undefined>>;
+  defaultValue?: string | undefined;
   children: React.ReactElement | React.ReactElement[];
+  value?: string | undefined;
+  onChange?: (value: string | undefined) => void;
 }
 
-function Radio({ value, setValue, children }: RadioProps) {
-  const [selectedValue, setSelectedValue] = useState<typeof value>(value || '');
+// value -> 외부에서 value 값을 바꾸겠다, Radio 컴포넌트가 내부에서 set 못하도록 제한하겠다
+// onChange -> 내부 state 값이 바뀌면 실행해줌
+// defaultValue -> 내부 state를 사용, 기본값 적용하고 싶음
+// value, onChange(setter 있음) -> 외부에서 value 값을 바꾸겠다, 다만 내부에서 값이 변경되면 value를 변경 가능하게 권한을 줌
+// value, onChange(setter 없음) -> 외부에서 value 값을 바꾸겠다, 값이 변경되면 함수를 실행하겠다.(안해줄 수도 있음)
+// onChange, defaultValue -> 내부 state를 사용, 기본값도 적용하고 싶음, 내부 state가 변경되면 어떤 처리를 하고 싶음
 
-  useEffect(() => {
-    setSelectedValue(value);
-  }, [value]);
+function Radio({ defaultValue, value, onChange, children }: RadioProps) {
+  const [innerValue, setInnerValue] = useState<typeof defaultValue>(defaultValue);
 
-  useEffect(() => {
-    setValue && setValue(selectedValue);
-  }, [selectedValue]);
+  // useEffect(() => {
+  //   if (defaultValue != undefined) {
+  //     setInnerValue(defaultValue);
+  //   }
+  // }, [defaultValue])
+
+  // value -> 내부 state 사용 안함, value로 대체, value가 변경 되면 onChange 호출
+  // onChange -> 내부 state 사용, set함수 호출 시 onChange 호출
+  // defaultValue -> 내부 state에 defaultValue 값이 세팅됨
+  // value, onChange -> value 값이 바뀌면 onChange 호출(안해줌)
+  // onChange, defaultValue -> 내부 state 사용, state 변경 시 onChange 호출, defaultValue 기본값 적용
+
+  const selectedValue = value != undefined ? value : innerValue;
+  const setSelectedValue = (v: string | undefined) => {
+    // if (value === undefined && onChange !== undefined) {
+    //   onChange(v);
+    //   return;
+    // }
+    setInnerValue(v);
+    onChange && onChange(v);
+  };
+
+  // useEffect(() => {
+  //   onChange && onChange(value);
+  // }, [value])
+
+  // useEffect(() => {
+  //   setSelectedValue(value);
+  // }, [value]);
+
+  // useEffect(() => {
+  //   setValue && setValue(selectedValue);
+  // }, [selectedValue]);
 
   return (
     <div data-component="radio">
-      <RadioContext.Provider value={{ selectedValue, setSelectedValue }}>{children}</RadioContext.Provider>
+      <RadioContext.Provider value={{ value: selectedValue, setValue: setSelectedValue }}>{children}</RadioContext.Provider>
     </div>
   );
 }
@@ -52,8 +86,7 @@ namespace Radio {
   }
 
   export function Item({ value, children }: ItemProps) {
-    const { selectedValue, setSelectedValue } = useContext(RadioContext);
-
+    const { value: selectedValue, setValue: setSelectedValue } = useContext(RadioContext);
     return (
       <label data-component="radio.item">
         <input
