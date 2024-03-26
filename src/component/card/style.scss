@@ -1,0 +1,6 @@
+[data-component='card'] {
+  display: flex;
+  grid-template-columns: auto max-content;
+  align-items: center;
+  border: 1px solid gray
+}

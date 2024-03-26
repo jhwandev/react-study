@@ -4,6 +4,7 @@ import ErrorPage from "./error-page";
 import SamplePage from "./sample-page";
 import SplatsExPage from "./splats-ex-page";
 import TestPage from "./test-page";
+import TestPage2 from "./test-page2";
 
 export {
   HomePage,
@@ -12,4 +13,5 @@ export {
   SamplePage,
   SplatsExPage,
   TestPage,
+  TestPage2,
 };

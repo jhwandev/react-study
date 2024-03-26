@@ -1,58 +1,63 @@
 import { useEffect, useState } from 'react';
 import Radio from '../../component/radio';
+import Checkbox from '../../component/checkbox';
+import { Card } from '../../component/card';
 
 export default function TestPage() {
   // radio
   const [selectedValue, setSelectedValue] = useState<string | undefined>('cherry');
+  const [radioValues, setRadioValues] = useState<string[]>(['a', 'b']);
 
   // radio (gpt)
   const [selectedOption, setSelectedOption] = useState('option1'); // 초기 선택 옵션
+
+  const plainOptions = ['a', 'b', 'c'];
 
   useEffect(() => {
     console.log(`client : ${selectedValue}`);
   }, [selectedValue]);
 
-  const [a, setA] = useState(1);
-
-  const [checkedMap, setCheckedMap] = useState({
-    a: false,
-    b: false,
-    c: false,
-  });
-
   return (
     <div data-page="test-page">
+      <Card.Link title="타이틀" description="데스크립션" url={'/component-example'} />
+      <Card title="타이틀2" description="데스크립션" />
+      <Card title="타이틀2" description="데스크립션" />
+      <Card title="타이틀2" description="데스크립션" />
+
+
+      <hr></hr>
+      <hr></hr>
       <h3>체크박스</h3>
-      {checkedMap['a'] ? <p>checked</p> : <p>unchecked</p>}
-      {checkedMap['b'] ? <p>checked</p> : <p>unchecked</p>}
-      {checkedMap['c'] ? <p>checked</p> : <p>unchecked</p>}
-      <input
-        type="checkbox"
-        checked={checkedMap['a']}
-        value={'a'}
-        onChange={(e) => {
-          e.target.checked ? setCheckedMap({ ...checkedMap, a: true }) : setCheckedMap({ ...checkedMap, a: false });
-        }}
-      />
-      <input
-        type="checkbox"
-        checked={checkedMap['b']}
-        value={'b'}
-        onChange={(e) => {
-          e.target.checked ? setCheckedMap({ ...checkedMap, b: true }) : setCheckedMap({ ...checkedMap, b: false });
-        }}
-      />
-      <input
-        type="checkbox"
-        checked={checkedMap['c']}
-        value={'c'}
-        onChange={(e) => {
-          e.target.checked ? setCheckedMap({ ...checkedMap, c: true }) : setCheckedMap({ ...checkedMap, c: false });
-        }}
-      />
+
+      <div style={{ display: 'flex' }}>
+        <Checkbox
+          value={radioValues}
+          onChange={(v) => {
+            console.log(v);
+          }}
+        >
+          <Checkbox.Item value="a">A</Checkbox.Item>
+          <Checkbox.Item value="b">B</Checkbox.Item>
+          <Checkbox.Item value="c">C</Checkbox.Item>
+        </Checkbox>
+      </div>
+
       <h3>라디오1</h3>
+      <button
+        onClick={() => {
+          console.log(selectedValue);
+        }}
+      >
+        확인w
+      </button>
+      <input />
       <p>{selectedValue}</p>
-      <Radio value={selectedValue} setValue={setSelectedValue}>
+      <Radio
+        value={selectedValue}
+        onChange={(v) => {
+          setSelectedValue(v);
+        }}
+      >
         <Radio.Item value="apple">사과</Radio.Item>
         <Radio.Item value="banana">바나나</Radio.Item>
         <Radio.Item value="cherry">체리</Radio.Item>

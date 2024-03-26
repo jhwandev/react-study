@@ -6,7 +6,8 @@ import {
   ErrorPage,
   SplatsExPage,
   ComponentExPage,
-  TestPage
+  TestPage,
+  TestPage2,
 } from "./pages";
 
 
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
         <Route path="/comp-ex/" element={<ComponentExPage/>}/>
         {/* test */}
         <Route path="/test/" element={<TestPage/>}/>
+        <Route path="/test2/" element={<TestPage2/>}/>
       </Route>
     </>
   )
