@@ -36,7 +36,8 @@ export const ALL_ATTRIBUTES: {
           value: '6',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -54,7 +55,8 @@ export const ALL_ATTRIBUTES: {
           value: '4',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -72,7 +74,8 @@ export const ALL_ATTRIBUTES: {
           value: '5',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -90,7 +93,8 @@ export const ALL_ATTRIBUTES: {
           value: '7',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -115,7 +119,8 @@ export const ALL_ATTRIBUTES: {
           value: '1 - 10 ApeCoin',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -137,7 +142,8 @@ export const ALL_ATTRIBUTES: {
           value: '0 - 1 ApeCoin',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -155,7 +161,8 @@ export const ALL_ATTRIBUTES: {
           value: '1000+ ApeCoin',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -173,7 +180,8 @@ export const ALL_ATTRIBUTES: {
           value: '100 - 1000 ApeCoin',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -198,7 +206,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bloodshot',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -216,7 +225,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Blindfold',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -234,7 +244,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Angry',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -252,7 +263,8 @@ export const ALL_ATTRIBUTES: {
           value: '3d',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -270,7 +282,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Eyepatch',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -288,7 +301,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Heart',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -306,7 +320,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Holographic',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -324,7 +339,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Hypnotized',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -342,7 +358,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Laser Eyes',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -360,7 +377,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Cyborg',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -378,7 +396,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Robot',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -396,7 +415,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Sad',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -414,7 +434,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Scumbag',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -432,7 +453,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Sleepy',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -450,7 +472,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Sunglasses',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -468,7 +491,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Wide Eyed',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -486,7 +510,8 @@ export const ALL_ATTRIBUTES: {
           value: 'X Eyes',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -504,7 +529,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Zombie',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -522,7 +548,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Crazy',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -540,7 +567,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Coins',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -558,7 +586,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Closed',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -576,7 +605,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bored',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -594,7 +624,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Blue Beams',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -619,7 +650,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Dumbfounded',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -637,7 +669,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bored Kazoo',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -655,7 +688,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bored Party Horn',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -673,7 +707,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bored Pipe',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -691,7 +726,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bored Pizza',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -709,7 +745,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bored Unshaven',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -727,7 +764,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bored Unshaven Bubblegum',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -745,7 +783,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bored Unshaven Cigar',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -763,7 +802,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bored Unshaven Cigarette',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -785,7 +825,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bored Unshaven Kazoo',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -803,7 +844,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bored Unshaven Party horn',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -821,7 +863,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bored Unshaven Pipe',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -839,7 +882,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bored Unshaven Pizza',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -857,7 +901,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Discomfort',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -879,7 +924,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Grin',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -897,7 +943,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Grin Diamond Grill',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -915,7 +962,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Grin Gold Grill',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -933,7 +981,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Grin Multicolored',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -951,7 +1000,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Jovial',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -969,7 +1019,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Phoneme L',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -987,7 +1038,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Phoneme Oh',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1005,7 +1057,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Phoneme  ooo',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1023,7 +1076,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Phoneme Vuh',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1041,7 +1095,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Phoneme Wah',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1059,7 +1114,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Rage',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1077,7 +1133,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Small Grin',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1095,7 +1152,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Tongue Out',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1113,7 +1171,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bored',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1131,7 +1190,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bored Bubblegum',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1149,7 +1209,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bored Cigar',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1167,7 +1228,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bored Cigarette',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1192,7 +1254,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Gray',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1210,7 +1273,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Aquamarine',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1228,7 +1292,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Army Green',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1246,7 +1311,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Blue',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1264,7 +1330,8 @@ export const ALL_ATTRIBUTES: {
           value: 'New Punk Blue',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1282,7 +1349,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Orange',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1300,7 +1368,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Purple',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1318,7 +1387,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Yellow',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1343,7 +1413,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Beanie',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1361,7 +1432,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Army Hat',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1379,7 +1451,8 @@ export const ALL_ATTRIBUTES: {
           value: "Baby's Bonnet",
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1397,7 +1470,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bandana Blue',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1415,7 +1489,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bayc Flipped Brim',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1433,7 +1508,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bayc Hat Black',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1451,7 +1527,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bayc Hat Red',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1469,7 +1546,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bowler',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1487,7 +1565,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bunny Ears',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1505,7 +1584,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Commie Hat',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1523,7 +1603,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Cowboy Hat',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1541,7 +1622,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Faux Hawk',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1559,7 +1641,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Fez',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1577,7 +1660,8 @@ export const ALL_ATTRIBUTES: {
           value: "Fisherman's Hat",
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1595,7 +1679,8 @@ export const ALL_ATTRIBUTES: {
           value: "Girl's Hair Pink",
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1613,7 +1698,8 @@ export const ALL_ATTRIBUTES: {
           value: "Girl's Hair Short",
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1631,7 +1717,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Halo',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1649,7 +1736,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Horns',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1667,7 +1755,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Irish Boho',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1685,7 +1774,8 @@ export const ALL_ATTRIBUTES: {
           value: "King's Crown",
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1703,7 +1793,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Laurel Wreath',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1721,7 +1812,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Party Hat 1',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1739,7 +1831,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Party Hat 2',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1757,7 +1850,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Police Motorcycle Helmet',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1775,7 +1869,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Prussian Helmet',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1793,7 +1888,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Safari',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1811,7 +1907,8 @@ export const ALL_ATTRIBUTES: {
           value: "Sea Captain's Hat",
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1829,7 +1926,8 @@ export const ALL_ATTRIBUTES: {
           value: "Seaman's Hat",
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1847,7 +1945,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Short Mohawk',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1865,7 +1964,8 @@ export const ALL_ATTRIBUTES: {
           value: 'S&m Hat',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1883,7 +1983,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Spinner Hat',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1901,7 +2002,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Stuntman Helmet',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1919,7 +2021,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Sushi Chef Headband',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1937,7 +2040,8 @@ export const ALL_ATTRIBUTES: {
           value: "Trippy Captain's Hat",
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1955,7 +2059,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Vietnam Era Helmet',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1973,7 +2078,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Ww2 Pilot Helm',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -1998,7 +2104,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Hawaiian',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2016,7 +2123,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Hip Hop',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2034,7 +2142,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Kings Robe',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2052,7 +2161,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Lab Coat',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2070,7 +2180,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Leather Jacket',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2088,7 +2199,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Leather Punk Jacket',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2106,7 +2218,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Lumberjack Shirt',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2124,7 +2237,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Navy Striped Tee',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2142,7 +2256,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Pimp Coat',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2160,7 +2275,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Prison Jumpsuit',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2178,7 +2294,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Prom Dress',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2196,7 +2313,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Puffy Vest',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2214,7 +2332,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Rainbow Suspenders',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2232,7 +2351,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Sailor Shirt',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2250,7 +2370,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Service',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2268,7 +2389,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Sleeveless Logo T',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2286,7 +2408,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Sleeveless T',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2304,7 +2427,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Smoking Jacket',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2322,7 +2446,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Space Suit',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2340,7 +2465,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Striped Tee',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2358,7 +2484,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Stunt Jacket',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2376,7 +2503,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Tanktop',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2394,7 +2522,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Tie Dye',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2412,7 +2541,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Toga',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2430,7 +2560,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Tuxedo Tee',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2448,7 +2579,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Tweed Suit',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2466,7 +2598,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Vietnam Jacket',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2484,7 +2617,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Wool Turtleneck',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2502,7 +2636,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Work Vest',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2520,7 +2655,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Guayabera',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2538,7 +2674,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Cowboy Shirt',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2556,7 +2693,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Caveman Pelt',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2574,7 +2712,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bone Tee',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2592,7 +2731,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bone Necklace',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2610,7 +2750,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Blue Dress',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2628,7 +2769,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Black T',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2646,7 +2788,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Black Suit',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2664,7 +2807,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Black Holes T',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2682,7 +2826,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Biker Vest',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2700,7 +2845,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bayc T Red',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2718,7 +2864,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bayc T Black',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2736,7 +2883,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Bandolier',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2754,7 +2902,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Admirals Coat',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2779,7 +2928,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Silver Hoop',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2797,7 +2947,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Cross',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2815,7 +2966,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Diamond Stud',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2833,7 +2985,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Gold Hoop',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2851,7 +3004,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Silver Stud',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2869,7 +3023,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Gold Stud',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2894,7 +3049,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Dmt',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2912,7 +3068,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Golden Brown',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2930,7 +3087,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Gray',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2948,7 +3106,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Noise',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2966,7 +3125,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Pink',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -2984,7 +3144,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Red',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -3002,7 +3163,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Robot',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -3020,7 +3182,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Solid Gold',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -3038,7 +3201,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Black',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -3056,7 +3220,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Tan',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -3074,7 +3239,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Zombie',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -3092,7 +3258,8 @@ export const ALL_ATTRIBUTES: {
           value: 'White',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -3110,7 +3277,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Trippy',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -3128,7 +3296,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Blue',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -3146,7 +3315,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Brown',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -3164,7 +3334,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Cheetah',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -3182,7 +3353,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Cream',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -3200,7 +3372,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Dark Brown',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,
@@ -3218,7 +3391,8 @@ export const ALL_ATTRIBUTES: {
           value: 'Death Bot',
           floorAskPrice: {
             currency: {
-              contract: '0x0000000000000000000000000000000000000000',
+              contract:
+                '0x0000000000000000000000000000000000000000',
               name: 'Ether',
               symbol: 'ETH',
               decimals: 18,

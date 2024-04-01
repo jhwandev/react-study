@@ -74,7 +74,14 @@ function Radio({ defaultValue, value, onChange, children }: RadioProps) {
 
   return (
     <div data-component="radio">
-      <RadioContext.Provider value={{ value: selectedValue, setValue: setSelectedValue }}>{children}</RadioContext.Provider>
+      <RadioContext.Provider
+        value={{
+          value: selectedValue,
+          setValue: setSelectedValue,
+        }}
+      >
+        {children}
+      </RadioContext.Provider>
     </div>
   );
 }
